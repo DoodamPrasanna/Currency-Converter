@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, rgb(229, 200, 249), rgb(177, 90, 218));
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border:  2px solid blue; */
+    width: 30rem;
+}
+.container{
+    height: 60vh;
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border:  2px solid black; */
+    border: none;
+    border-radius: 25px;
+    gap: 20px;
+    background-color: #ebd7fb;
+}
+
+.Eamt{
+    padding: 10px;
+    width: 500px;
+    /* border-radius: 25px; */
+    font-size: medium;
+}
+
+.msg{
+    font-size: larger;
+}
+
+.Ex-btn{
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: large;
+    background-image: linear-gradient(to right, rgb(235, 55, 190), rgb(169, 16, 220));
+    border: none;
+    font-weight: 500;
+    color: white;
+}
+
+div img{
+    height: 80px;
+    width: 80px;
+}
